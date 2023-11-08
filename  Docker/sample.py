@@ -1,10 +1,10 @@
 import openai
-openai.api_key = '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'
+openai.api_key = 'sk-'
 
 response = openai.ChatCompletion.create(
     model="gpt-3.5-turbo",
     messages=[
-        {"role":"user","content":"Please tell me about tokyo city"},
+        {"role": "user", "content": "Please tell me about tokyo city"},
     ]
 )
 
